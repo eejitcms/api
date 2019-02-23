@@ -22,7 +22,7 @@ namespace EejitCMS.API.Controllers
 		[HttpPost]
 		public void Post([FromBody] string value)
 		{
-			throw new NotFiniteNumberException ();
+			throw new NotImplementedException ();
 		}
 
 		// GET api/account/:id
@@ -36,14 +36,14 @@ namespace EejitCMS.API.Controllers
 		[HttpPost("{id:string}")]
 		public void Put(string id, [FromBody] string value)
 		{
-			throw new NotFiniteNumberException ();
+			throw new NotImplementedException ();
 		}
 
 		// DELETE api/account/:id
 		[HttpDelete("{id:string}")]
 		public void Delete(string id)
 		{
-			throw new NotFiniteNumberException ();
+			throw new NotImplementedException ();
 		}
 
 	}
