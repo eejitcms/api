@@ -7,6 +7,6 @@ namespace EejitCMS.API.Models
 {
 	public class Page
 	{
-		public int Id { get; set; }
+		public string Id { get; set; }
 	}
 }

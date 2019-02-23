@@ -33,7 +33,7 @@ namespace EejitCMS.API.Controllers
 		}
 
 		// PUT api/account/:id
-		[HttpPost("{id:string}")]
+		[HttpPut("{id:string}")]
 		public void Put(string id, [FromBody] string value)
 		{
 			throw new NotImplementedException ();
