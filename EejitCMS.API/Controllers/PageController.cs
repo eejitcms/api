@@ -11,6 +11,13 @@ namespace EejitCMS.API.Controllers
 	[ApiController]
 	public class PageController : ControllerBase
 	{
+		private readonly PageContext _context { get; set; }
+
+		public PageController(PageContext context)
+		{
+			_context = context;
+		}
+
 		// GET api/page
 		[HttpGet]
 		public Page Get()

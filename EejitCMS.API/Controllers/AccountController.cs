@@ -11,6 +11,13 @@ namespace EejitCMS.API.Controllers
 	[ApiController]
 	public class AccountController : ControllerBase
 	{
+		private readonly AccountContext _context;
+
+		public AccountController(AccountContext context)
+		{
+			_context = context;
+		}
+
 		// GET api/account
 		[HttpGet]
 		public Account Get()
