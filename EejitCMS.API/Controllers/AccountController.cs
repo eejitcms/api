@@ -90,7 +90,7 @@ namespace EejitCMS.API.Controllers
 			
 			// Update Email if new email provided and set email verified correctly
 			search.Email = accountInput.Email ?? search.Email;
-			search.EmailVerified = accountInput.Email == null; 
+			search.EmailVerified = (accountInput.Email == null) == search.EmailVerified; 
 
 			if (accountInput.Password != null && accountInput.Old_Password != null)
 			{
