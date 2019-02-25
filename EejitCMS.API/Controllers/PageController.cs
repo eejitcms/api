@@ -11,7 +11,7 @@ namespace EejitCMS.API.Controllers
 	[ApiController]
 	public class PageController : ControllerBase
 	{
-		private readonly PageContext _context { get; set; }
+		private readonly PageContext _context;
 
 		public PageController(PageContext context)
 		{
@@ -33,21 +33,21 @@ namespace EejitCMS.API.Controllers
 		}
 
 		// GET api/page/:slug
-		[HttpGet("{slug:string}")]
+		[HttpGet("{slug}")]
 		public Page Get(string slug)
 		{
 			throw new NotImplementedException ();
 		}
 
 		// PUT api/page/:slug
-		[HttpPut("{slug:string}")]
+		[HttpPut("{slug}")]
 		public void Put(string slug, [FromBody] string value)
 		{
 			throw new NotImplementedException ();
 		}
 
 		// DELETE api/page/:slug
-		[HttpDelete("{slug:string}")]
+		[HttpDelete("{slug}")]
 		public void Delete(string slug)
 		{
 			throw new NotImplementedException ();

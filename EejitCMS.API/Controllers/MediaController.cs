@@ -19,21 +19,21 @@ namespace EejitCMS.API.Controllers
 		}
 
 		// GET api/media/:id
-		[HttpGet("{id:string}")]
+		[HttpGet("{id}")]
 		public Page Get(string id)
 		{
 			throw new NotImplementedException ();
 		}
 
 		// PUT api/media/:id
-		[HttpPut("{id:string}")]
+		[HttpPut("{id}")]
 		public void Put(string id, [FromBody] string value)
 		{
 			throw new NotImplementedException ();
 		}
 
 		// DELETE api/media/:id
-		[HttpDelete("{id:string}")]
+		[HttpDelete("{id}")]
 		public void Delete(string id)
 		{
 			throw new NotImplementedException ();
