@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28606.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EejitCMS.API", "EejitCMS.API\EejitCMS.API.csproj", "{AD1A9BDA-AF64-492A-9906-EE2C4DEFF62F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EejitCMS.API", "EejitCMS.API\EejitCMS.API.csproj", "{AD1A9BDA-AF64-492A-9906-EE2C4DEFF62F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30BC7661-E62D-46CA-B039-5009FA169828}"
 	ProjectSection(SolutionItems) = preProject
