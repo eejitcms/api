@@ -78,7 +78,7 @@ namespace EejitCMS.API.Models
 			byte allow_char_end = 126;
 
 			// Min length 8 chars
-			reason = "Password is bellow 8 characters";
+			reason = "Password is below 8 characters";
 			if (password.Length < 8) return false;
 			// Must only contain allowed_chars
 			reason = "Password contains invalid characters";
