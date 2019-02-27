@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EejitCMS.API.Tests", "EejitCMS.API.Tests\EejitCMS.API.Tests.csproj", "{F0FC6519-3A24-4B97-B74D-A329D6835B00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{AD1A9BDA-AF64-492A-9906-EE2C4DEFF62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1A9BDA-AF64-492A-9906-EE2C4DEFF62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1A9BDA-AF64-492A-9906-EE2C4DEFF62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FC6519-3A24-4B97-B74D-A329D6835B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FC6519-3A24-4B97-B74D-A329D6835B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FC6519-3A24-4B97-B74D-A329D6835B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FC6519-3A24-4B97-B74D-A329D6835B00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
