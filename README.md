@@ -1,4 +1,5 @@
-# EejitCMS API
+# EejitCMS.API
+[![Build status](https://ci.appveyor.com/api/projects/status/v3jihxi455vvvf4h?svg=true)](https://ci.appveyor.com/project/Alekaei/api)
 
 ## Contributors
 - [Aleksei Ivanov](https://github.com/Alekaei)
