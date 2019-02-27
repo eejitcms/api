@@ -1,5 +1,5 @@
 version: 1.0.{build}
-image: Ubunut
+image: Ubuntu
 
 
 environment:
