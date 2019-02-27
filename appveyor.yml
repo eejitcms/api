@@ -1,0 +1,15 @@
+version: 1.0.{build}
+image: .NET Core 2.2 runtime version 2.2.1
+
+
+environment:
+    ASPNETCORE_ENVIRONMENT: Development
+
+install:
+    - dotnet restore
+
+test_script:
+    - dotnet test
+
+build_script:
+    - dotnet build
