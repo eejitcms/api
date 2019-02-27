@@ -1,5 +1,5 @@
 version: 1.0.{build}
-image: .NET Core 2.2 runtime version 2.2.1
+image: .NET Framework
 
 
 environment:
