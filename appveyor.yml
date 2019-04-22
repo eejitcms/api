@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Ubuntu
+
+environment:
+  ASPNETCORE_ENVIRONMENT: Development
+
+install:
+  - dotnet restore
+
+build_script:
+  -dotnet build
