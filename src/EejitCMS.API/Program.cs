@@ -3,7 +3,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Serilog;
 
-namespace EejitCMS.API
+namespace EejitCms.Api
 {
 	public class Program
 	{

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 [assembly: ApiController]
-namespace EejitCMS.API
+namespace EejitCms.Api
 {
 	public class Startup
 	{

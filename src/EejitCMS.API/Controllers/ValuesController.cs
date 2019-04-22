@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace EejitCMS.API.Controllers
+namespace EejitCms.Api.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]

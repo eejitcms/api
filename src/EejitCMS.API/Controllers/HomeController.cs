@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace EejitCMS.API.Controllers
+namespace EejitCms.Api.Controllers
 {
 	[Route("api/[controller]")]
 	public class HomeController : ControllerBase
