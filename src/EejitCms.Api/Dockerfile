@@ -2,19 +2,20 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-stretch-slim AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
+EXPOSE 3333
 
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
-COPY ["EejitCMS.API/EejitCMS.API.csproj", "EejitCMS.API/"]
-RUN dotnet restore "EejitCMS.API/EejitCMS.API.csproj"
+COPY ["EejitCms.Api/EejitCms.Api.csproj", "EejitCms.Api/"]
+RUN dotnet restore "EejitCms.Api/EejitCms.Api.csproj"
 COPY . .
-WORKDIR "/src/EejitCMS.API"
-RUN dotnet build "EejitCMS.API.csproj" -c Release -o /app
+WORKDIR "/src/EejitCms.Api"
+RUN dotnet build "EejitCms.Api.csproj" -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish "EejitCMS.API.csproj" -c Release -o /app
+RUN dotnet publish "EejitCms.Api.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "EejitCMS.API.dll"]
+ENTRYPOINT ["dotnet", "EejitCms.Api.dll"]

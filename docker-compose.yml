@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  eejitcmsapi:
+    container_name: eejitcmsapi
+    build:
+      context: ./src
+      dockerfile: EejitCms.Api/Dockerfile
+    image: eejitcmsapi:1.0
+    ports:
+      - "3333:3333"
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - sqlserver
+  sqlserver:
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: "Ch4NgE_1n_Pr0dUCtIoN"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"

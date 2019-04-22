@@ -17,7 +17,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
     <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
@@ -26,15 +26,6 @@
     <PackageReference Include="Serilog.Sinks.File" Version="4.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Connected Services\" />
-    <Folder Include="Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+  <ItemGroup />
 
 </Project>

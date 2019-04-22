@@ -4,7 +4,6 @@ using System.Collections.Generic;
 namespace EejitCms.Api.Controllers
 {
 	[Route("api/[controller]")]
-	[ApiController]
 	public class ValuesController : ControllerBase
 	{
 		// GET api/values
